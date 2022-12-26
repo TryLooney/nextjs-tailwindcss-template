@@ -3,7 +3,7 @@ import { Montserrat } from "@next/font/google";
 
 import "../styles/globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"], display: "fallback" });
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
