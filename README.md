@@ -28,14 +28,14 @@ import { Montserrat } from "@next/font/google";
 const montserrat = Montserrat({ subsets: ["latin"], display: "fallback" });
 ```
 - Englobe seu `Component` com a seguinte div
-```ts
+```jsx
 <div className={montserrat.className}></div>
 ```
 
 ### Criando _document.tsx
 - Crie um arquivo `_document.tsx` na pasta `src/pages`
 - Adicione o seguinte código
-```ts
+```jsx
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
